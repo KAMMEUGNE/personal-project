@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>COFFEE SHOP</title>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--entete-->
+    <header>
+        <img src="images\logo6.jpg" alt="logo" width="100">
+
+        <nav>
+            <a href="#accueil">accueil</a>
+            <a href="#apropos">à propos</a>
+            <a href="#menu">menu</a>
+            <a href="#produits">produits</a>
+            <a href="#avis">avis</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+
+            <input type="text" name="recherche" placeholder="recherche...">
+            <ion-icon name="search-outline" class="loupe"></ion-icon>
+
+            <ion-icon name="cart-outline" class="panier"></ion-icon>
+            <ion-icon name="menu-outline" id="menus"></ion-icon>
+        </div>
+    </header>
+    <!--accueil-->
+    <section class="home" id="accueil">
+        <div class="texte">
+            <h3>Un bon café pour <br> commencer la journée</h3>
+            <p>Nous faisons le meilleur café du pays made in cameroun. <br> venez vous regaler chez nous !</p>
+            <a href="#menu" class="btn">commandez maintenant</a>
+        </div>
+    </section>
+    <!--à propos-->
+    <section id="apropos">
+        <h1>à propos de <span>nOUS</span></h1>
+
+        <div class="row">
+            <div class="image"><img src="images/cafe3.jpg" alt=""></div>
+            <div class="content">
+                <h3 class="line"> pourquoi choisir notre café</h3>
+                <p>notre café provient d'un sol riche, et est récolté dans un climat tropical prospice à sa culture.</P>
+                <P> nos producteurs disposent d'un savoir faire ancien qui donne ce goût particulier à notre café, <br> un délice pour les papilles.</p>
+                <a href="#">voir plus</a>
+            </div>
+        </div>
+    </section>
+    <!--menu-->
+    <section class="menu" id="menu">
+        <h1>notre <span>menu</span></h1>
+        <div class="conteneur">
+            <div class="boite">
+                <div class="imagerie"><img src="./images/menu1.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>cappuccino</h3>
+                <div class="prix">3000 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/donuts4.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>café au lait + donut</h3>
+                <div class="prix">5000 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/cafe12.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>espresso</h3>
+                <div class="prix">3000 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/menu4.jpeg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>ristreto</h3>
+                <div class="prix">2500 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/cafe13.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>cortado + 3 donuts</h3>
+                <div class="prix">6500 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/menu6.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>latte</h3>
+                <div class="prix">5000 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/menu7.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>Antoccino</h3>
+                <div class="prix">2500 FCFA</div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/menu12.jpg" alt="">
+                    <div class="action">
+                        <a href="">ajouter au panier</a>
+                    </div>
+                </div>
+
+                <h3>spécial Macchiato</h3>
+                <div class="prix">4000 FCFA</div>
+            </div>
+
+        </div>
+    </section>
+    <!--produits-->
+    <section class="produits" id="produits">
+
+        <h1>nos <span> produits</span></h1>
+        <div class="conteneur">
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit1.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>robusta</h3>
+                <div class="prix">600FCFA/Kg</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>arabica</h3>
+                <div class="prix">525FCFA/Kg</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit2.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>arabica ouest Cameroun</h3>
+                <div class="prix">600FCFA/Kg</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit3.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>pellini 500 gr</h3>
+                <div class="prix">9000 FCFA</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit4.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>top pellini</h3>
+                <div class="prix">12000 FCFA</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit6.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>pack pellini</h3>
+                <div class="prix">42 500FCFA</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit7.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>Kopi Luwak</h3>
+                <div class="prix">1000FCFA/Kg</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="imagerie"><img src="./images/produit8.jpg" alt="">
+                    <div class="action">
+                        <div>
+                            <ion-icon name="cart"></ion-icon>
+                            <ion-icon name="heart"></ion-icon>
+                            <ion-icon name="eye"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <h3>capsules cappuccino</h3>
+                <div class="prix">7500 FCFA</div>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--avis-->
+    <section class="avis" id="avis">
+        <h1>avis de nos <span>clients</span></h1>
+        <div class="box">
+            <div class="boite">
+                <div class="cote">
+                    <span>''</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam officiis libero laborum a veritatis.</p>
+                <div><img src="./images/portrait4.jpg" alt=""></div>
+                <h3>aboubakar</h3>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="cote">
+                    <span>''</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam officiis libero laborum a veritatis.</p>
+                <div><img src="./images/portrait1.jpg" alt=""></div>
+                <h3>justine</h3>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+            <div class="boite">
+                <div class="cote">
+                    <span>''</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam officiis libero laborum a veritatis.</p>
+                <div><img src="./images/portrait5.jpg" alt=""></div>
+                <h3>georges</h3>
+                <div class="rate">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star-half"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact-->
+    <section class="contact" id="contact">
+        <h1>contactez<span> nous</span></h1>
+        <div id="block">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.976688717261!2d9.695399349511119!3d4.0251672970584735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1061131a855d1969%3A0x373ffb5cd202e4b1!2sLA%20MARQUISE%20RESTAURANT!5e0!3m2!1sfr!2scm!4v1640387132827!5m2!1sfr!2scm"
+                allowfullscreen="" loading="lazy"></iframe>
+
+            <form action="">
+                <div class="formul">
+                    <ion-icon name="person"></ion-icon><input type="text" name="name" placeholder="nom">
+                </div>
+                <div class="formul">
+                    <ion-icon name="mail"></ion-icon><input type="email" name="email" placeholder="email"></div>
+                <div class="formul">
+                    <ion-icon name="call"></ion-icon><input type="tel" name="tel" id="" placeholder="numéro de téléphone"></div>
+                <div><textarea name="comment" placeholder="commentaire"></textarea></div>
+                <div><input type="submit" value="submit" class="submit"></div>
+            </form>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
